@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="9dp"
+    android:paddingRight="9dp"
+    android:background="@drawable/index"
+    tools:context="com.example.root.digital.MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="20dp"
+        android:text="welcome"
+        android:textStyle="italic"
+        android:textSize="50sp"
+        android:textColor="#797c88"
+        android:paddingLeft="65dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="email"
+        android:textStyle="italic"
+        android:textSize="21sp"
+        android:textColor="#797c88"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:inputType="text"
+        android:id="@+id/edit1" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="password"
+        android:textStyle="italic"
+        android:textColor="#797c88"
+        android:textSize="21sp"
+        android:paddingLeft="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:inputType="textPassword"
+        android:id="@+id/edit2" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:textStyle="italic"
+        android:background="#6666"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:textStyle="italic"
+        android:paddingLeft="90dp"
+        android:paddingTop="120dp"
+        android:text="newuser?register"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

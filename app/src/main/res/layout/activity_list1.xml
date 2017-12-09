@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.root.digital.List1"
+    android:background="#fff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="380dp"
+        android:layout_height="252dp"
+        android:src="@drawable/image" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="computer science"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:textColor="#ffff"
+        android:background="#C32148"
+        android:textSize="25sp"
+        android:id="@+id/text1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="mechanical"
+        android:textColor="#ffff"
+        android:background="#964B00"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:id="@+id/text2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Information Technology"
+        android:textColor="#ffffff"
+        android:background="#E4D00A"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:id="@+id/text3"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Electronics and Communication"
+        android:gravity="center"
+        android:textColor="#ffff"
+        android:background="#006B3C"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:id="@+id/text4"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Electrical and Electronics"
+        android:gravity="center"
+        android:textColor="#ffff"
+        android:textSize="25sp"
+        android:background="#87A96B"
+        android:textStyle="italic"
+        android:id="@+id/text5"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Civil Engineering"
+        android:gravity="center"
+        android:background="#89CFF0"
+        android:textColor="#ffff"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:id="@+id/text6"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Aeronotical"
+        android:textColor="#ffff"
+        android:gravity="center"
+        android:background="#848482"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:id="@+id/text7"/>
+    </LinearLayout>
+
+</ScrollView>
